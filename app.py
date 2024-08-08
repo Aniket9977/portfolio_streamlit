@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.image("image\IMG_20240720_201333_050.jpg", width=200)  
+st.image("image/IMG_20240720_201333_050.jpg", width=200)  
 
 st.title("Aniket Vishwakarma's Portfolio")
 
