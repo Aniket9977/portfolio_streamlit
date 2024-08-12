@@ -8,13 +8,16 @@ with col1:
     st.image("image/IMG_20240720_201333_050.jpg", width=200)  
 
     # Add a download button for the resume below the photo
-    with open("image\Resume.pdf", "rb") as file:
-        st.download_button(
-            label="Download Resume",
-            data=file,
-            file_name="image\Resume.pdf",
-            mime="application/pdf",
-        )
+    try:
+        with open("image/Resume.pdf", "rb") as file:
+            st.download_button(
+                label="Download Resume",
+                data=file,
+                file_name="Resume.pdf",
+                mime="application/pdf",
+            )
+    except FileNotFoundError:
+        st.error("Resume file not found. Please check the file path.")
 
 # Add title and introduction in the second column
 with col2:
@@ -23,6 +26,8 @@ with col2:
     Hi, I'm Aniket Vishwakarma, currently pursuing a Bachelor of Technology in Artificial Intelligence and Data Science.
     Welcome to my portfolio website! Here you'll find my resume, projects, and ways to get in touch with me.
     """)
+
+# (Rest of your code...)
 
 # Education section
 st.subheader("Education")
