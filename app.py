@@ -1,20 +1,30 @@
 import streamlit as st
 
+# Create a two-column layout
+col1, col2 = st.columns([1, 2])
 
-st.image("image/IMG_20240720_201333_050.jpg", width=200)  
+# Add photo in the first column
+with col1:
+    st.image("image/IMG_20240720_201333_050.jpg", width=200)  
 
-st.title("Aniket Vishwakarma's Portfolio")
+    # Add a download button for the resume below the photo
+    with open("image\Resume.pdf", "rb") as file:
+        st.download_button(
+            label="Download Resume",
+            data=file,
+            file_name="image\Resume.pdf",
+            mime="application/pdf",
+        )
 
-# Add a photograph
+# Add title and introduction in the second column
+with col2:
+    st.title("Aniket Vishwakarma's Portfolio")
+    st.write("""
+    Hi, I'm Aniket Vishwakarma, currently pursuing a Bachelor of Technology in Artificial Intelligence and Data Science.
+    Welcome to my portfolio website! Here you'll find my resume, projects, and ways to get in touch with me.
+    """)
 
-
-
-st.write("""
-Hi, I'm Aniket Vishwakarma,  currently pursuing a Bachelor of Technology in Artificial Intelligence and Data Science.
-Welcome to my portfolio website! Here you'll find my resume, projects, and ways to get in touch with me.
-""")
-
-
+# Education section
 st.subheader("Education")
 st.write("""
 - **Bachelor of Technology in Artificial Intelligence and Data Science**  
@@ -26,6 +36,7 @@ st.write("""
   Percentage: 90%
 """)
 
+# Experience section
 st.subheader("Experience")
 st.write("""
 - **ML Mentor**  
@@ -44,6 +55,7 @@ st.write("""
   - Gained experience in networking and pitching projects.
 """)
 
+# Projects section
 st.subheader("Projects")
 st.write("""
 - **Brandbooster** (AI-Powered Review Analysis)  
@@ -64,6 +76,7 @@ st.write("""
   - Technology Used: TailwindCSS, Flowbite, AOS.
 """)
 
+# Technical Skills section
 st.subheader("Technical Skills")
 st.write("""
 - **Languages**: C/C++, Python, SQL
@@ -72,10 +85,9 @@ st.write("""
 """)
 
 # Sidebar for Streamlit Project
-st.sidebar.title("My Deployed Project")
-st.sidebar.write("""
-Check out my live Streamlit app:
-""")
+st.sidebar.title("My Deployed Projects")
+st.sidebar.write("Check out my live Streamlit apps:")
+
 st.sidebar.markdown(
     """
     <div style="border: 1px solid #ccc; padding: 10px; border-radius: 8px; 
@@ -89,6 +101,7 @@ st.sidebar.markdown(
     </div>
     """, unsafe_allow_html=True
 )
+
 st.sidebar.markdown(
     """
     <div style="border: 1px solid #ccc; padding: 10px; border-radius: 8px; 
@@ -102,7 +115,7 @@ st.sidebar.markdown(
     """, unsafe_allow_html=True
 )
 
-# Add a section for contact information
+# Contact section
 st.header("Contact")
 st.write("""
 - **Phone**: +91-9977930826  
@@ -112,6 +125,6 @@ st.write("""
 - **LeetCode**: [LeetCode Profile](https://leetcode.com/your-profile)
 """)
 
-# Add some footer text
+# Footer
 st.write("---")
 st.write("© 2024 Aniket Vishwakarma")
