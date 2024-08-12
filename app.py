@@ -15,8 +15,6 @@ Welcome to my portfolio website! Here you'll find my resume, projects, and ways 
 """)
 
 
-st.header("Resume"  )
-
 st.subheader("Education")
 st.write("""
 - **Bachelor of Technology in Artificial Intelligence and Data Science**  
@@ -78,7 +76,31 @@ st.sidebar.title("My Deployed Project")
 st.sidebar.write("""
 Check out my live Streamlit app:
 """)
-st.sidebar.markdown("[**Maths Marks Predictor**](https://maths-pred.streamlit.app/)", unsafe_allow_html=True)
+st.sidebar.markdown(
+    """
+    <div style="border: 1px solid #ccc; padding: 10px; border-radius: 8px; 
+                background: linear-gradient(135deg, #f6f8fc, #eef1f8); 
+                box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); 
+                margin-bottom: 15px;">
+        <a href="https://maths-pred.streamlit.app/" target="_blank" 
+           style="text-decoration: none; font-weight: bold; color: #333; font-size: 14px;">
+            Maths Marks Predictor
+        </a>
+    </div>
+    """, unsafe_allow_html=True
+)
+st.sidebar.markdown(
+    """
+    <div style="border: 1px solid #ccc; padding: 10px; border-radius: 8px; 
+                background: linear-gradient(135deg, #f0f7fc, #e8eef8); 
+                box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);">
+        <a href="https://ats-pred.streamlit.app/" target="_blank" 
+           style="text-decoration: none; font-weight: bold; color: #333; font-size: 14px;">
+            ATS Marks Predictor
+        </a>
+    </div>
+    """, unsafe_allow_html=True
+)
 
 # Add a section for contact information
 st.header("Contact")
