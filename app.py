@@ -63,22 +63,24 @@ st.write("""
 # Projects section
 st.subheader("Projects")
 st.write("""
-- **Brandbooster** (AI-Powered Review Analysis)  
-  A website that provides actionable shopper insights about your product or your competition in 5 minutes.  
-  - Insights of your products generated from reviews.  
-  - Competition analysis using reviews.  
-  - Charts and recommendations about product sales.
+- **ATS Resume Expert (AI-Powered ATS Resume Evaluation Tool)**  
+  Developed an application to evaluate resumes against job descriptions and optimize them for ATS.
+  - Utilized gemini-1.5-flash to generate detailed feedback on resume alignment with job descriptions.
+  - Developed custom prompts to assess weaknesses and provide a percentage match to the job description.
+  - Immediate feedback, keyword optimization, format compatibility, and alignment to specific job descriptions.
+  - **Technology Used**: Pandas, Pickle, Scikit-Learn.
 
-- **Car Renting Service** (Next.js)  
-  A website where data is fetched using API and filtered by changing parameters in the URL.  
-  - Facilitates users in searching for cars by name and model.  
-  - Allows users to share their filtered results with others by sharing the URL.  
-  - Technology Used: Next.js, TypeScript.
+- **Remote Proctoring System with Real-Time Facial Landmark Detection (OpenCV)**  
+  The system tracks eye and mouth movements to identify potential cheating behaviors.
+  - Developed an application to leverage facial landmarks to monitor eye and mouth activities using OpenCV and Dlib.
+  - Utilized metrics to detect suspicious activities, enhancing the accuracy of remote proctoring systems.
+  - **Technology Used**: Python, OpenCV, Dlib, Machine Learning.
 
-- **Kingcoin** (Cryptocurrency Landing Page)  
-  A website designed with TailwindCSS and Flowbite styling, incorporating AOS animations.  
-  - Used AOS animations and handled responsiveness using TailwindCSS.  
-  - Technology Used: TailwindCSS, Flowbite, AOS.
+- **Maths Marks Predictor (Real-Time Predictions)**  
+  An application to predict marks using machine learning algorithms.
+  - Developed machine learning prediction, preprocessing, inference, and accurate predictions based on input data.
+  - Managed the end-to-end machine learning workflow.
+  - **Technology Used**: Pandas, Scikit-learn, Python.
 """)
 
 # Technical Skills section
@@ -125,9 +127,9 @@ st.header("Contact")
 st.write("""
 - **Phone**: +91-9977930826  
 - **Email**: [aniketvishwakarma459@gmail.com](mailto:aniketvishwakarma459@gmail.com)  
-- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/your-profile)  
-- **GitHub**: [GitHub Profile](https://github.com/your-profile)  
-- **LeetCode**: [LeetCode Profile](https://leetcode.com/your-profile)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/aniket-vishwakarma-7a222a147/)  
+- **GitHub**: [GitHub Profile](https://github.com/Aniket9977)  
+- **LeetCode**: [LeetCode Profile](https://leetcode.com/u/Aniket9977/)
 """)
 
 # Footer
