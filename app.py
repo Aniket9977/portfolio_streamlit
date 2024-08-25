@@ -86,14 +86,14 @@ st.write("""
 # Technical Skills section
 st.subheader("Technical Skills")
 st.write("""
-- **Languages**: C/C++, Python, SQL
+- **Languages**: Python, SQL
 - **Data Analytics**: Numpy, PowerBI, MS Excel, MySQL, Pandas, Matplotlib, Seaborn
 - **Machine Learning**: Python, Scikit-learn, AWS, Azure, ML Algorithms, Statistics, Probability
 """)
 
 # Sidebar for Streamlit Project
 st.sidebar.title("My Deployed Projects")
-st.sidebar.write("Check out my live Streamlit apps:")
+st.sidebar.write("Check out my live apps:")
 
 st.sidebar.markdown(
     """
@@ -113,7 +113,8 @@ st.sidebar.markdown(
     """
     <div style="border: 1px solid #ccc; padding: 10px; border-radius: 8px; 
                 background: linear-gradient(135deg, #f0f7fc, #e8eef8); 
-                box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);">
+                box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+                margin-bottom: 15px;">
         <a href="https://ats-pred.streamlit.app/" target="_blank" 
            style="text-decoration: none; font-weight: bold; color: #333; font-size: 14px;">
             ATS Marks Predictor
@@ -122,15 +123,16 @@ st.sidebar.markdown(
     """, unsafe_allow_html=True
 )
 
+
 st.sidebar.markdown(
     """
     <div style="border: 1px solid #ccc; padding: 10px; border-radius: 8px; 
                 background: linear-gradient(135deg, #f6f8fc, #eef1f8); 
                 box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); 
                 margin-bottom: 15px;">
-        <a href="https://maths-pred.streamlit.app/" target="_blank" 
+        <a href="https://proct-remote.streamlit.app/" target="_blank" 
            style="text-decoration: none; font-weight: bold; color: #333; font-size: 14px;">
-            Maths Marks Predictor
+            Remote Proctoring System
         </a>
     </div>
     """, unsafe_allow_html=True
