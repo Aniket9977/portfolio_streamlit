@@ -121,6 +121,7 @@ st.sidebar.markdown(
     </div>
     """, unsafe_allow_html=True
 )
+
 st.sidebar.markdown(
     """
     <div style="border: 1px solid #ccc; padding: 10px; border-radius: 8px; 
