@@ -97,47 +97,49 @@ st.sidebar.write("Check out my live apps:")
 
 st.sidebar.markdown(
     """
-    <div style="border: 1px solid #ccc; padding: 10px; border-radius: 8px; 
-                background: linear-gradient(135deg, #f6f8fc, #eef1f8); 
-                box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); 
-                margin-bottom: 15px;">
-        <a href="https://maths-pred.streamlit.app/" target="_blank" 
-           style="text-decoration: none; font-weight: bold; color: #333; font-size: 14px;">
+    <a href="https://maths-pred.streamlit.app/" target="_blank" 
+       style="text-decoration: none;">
+        <div style="border: 1px solid #bbb; padding: 12px; border-radius: 10px; 
+                    background: linear-gradient(135deg, #e0f7fa, #e1f5fe); 
+                    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+                    margin-bottom: 20px; transition: transform 0.3s ease-in-out; 
+                    color: #004d40; font-weight: bold; font-size: 15px;">
             Maths Marks Predictor
-        </a>
-    </div>
+        </div>
+    </a>
     """, unsafe_allow_html=True
 )
 
 st.sidebar.markdown(
     """
-    <div style="border: 1px solid #ccc; padding: 10px; border-radius: 8px; 
-                background: linear-gradient(135deg, #f0f7fc, #e8eef8); 
-                box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-                margin-bottom: 15px;">
-        <a href="https://ats-pred.streamlit.app/" target="_blank" 
-           style="text-decoration: none; font-weight: bold; color: #333; font-size: 14px;">
-            ATS Marks Predictor
-        </a>
-    </div>
+    <a href="https://free-ats.streamlit.app/" target="_blank" 
+       style="text-decoration: none;">
+        <div style="border: 1px solid #bbb; padding: 12px; border-radius: 10px; 
+                    background: linear-gradient(135deg, #f1f8e9, #dcedc8); 
+                    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+                    margin-bottom: 20px; transition: transform 0.3s ease-in-out; 
+                    color: #33691e; font-weight: bold; font-size: 15px;">
+            ATS  Predictor
+        </div>
+    </a>
     """, unsafe_allow_html=True
 )
 
 
 st.sidebar.markdown(
     """
-    <div style="border: 1px solid #ccc; padding: 10px; border-radius: 8px; 
-                background: linear-gradient(135deg, #f6f8fc, #eef1f8); 
-                box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); 
-                margin-bottom: 15px;">
-        <a href="https://proct-remote.streamlit.app/" target="_blank" 
-           style="text-decoration: none; font-weight: bold; color: #333; font-size: 14px;">
-            Remote Proctoring System
-        </a>
-    </div>
+    <a href="https://maths-pred.streamlit.app/" target="_blank" 
+       style="text-decoration: none;">
+        <div style="border: 1px solid #bbb; padding: 12px; border-radius: 10px; 
+                    background: linear-gradient(135deg, #e0f7fa, #e1f5fe); 
+                    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+                    margin-bottom: 20px; transition: transform 0.3s ease-in-out; 
+                    color: #004d40; font-weight: bold; font-size: 15px;">
+            Maths Marks Predictor
+        </div>
+    </a>
     """, unsafe_allow_html=True
 )
-
 
 # Contact section
 st.header("Contact")
