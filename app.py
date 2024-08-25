@@ -126,7 +126,8 @@ st.sidebar.markdown(
     """
     <div style="border: 1px solid #ccc; padding: 10px; border-radius: 8px; 
                 background: linear-gradient(135deg, #f0f7fc, #e8eef8); 
-                box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);">
+                box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+                margin-bottom: 15px;">
         <a href="https://proct-remote.streamlit.app/" target="_blank" 
            style="text-decoration: none; font-weight: bold; color: #333; font-size: 14px;">
             Remote Proctoring System
