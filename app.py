@@ -97,7 +97,7 @@ st.sidebar.write("Check out my live apps:")
 
 st.sidebar.markdown(
     """
-    <a href="https://maths-pred.streamlit.app/" target="_blank" 
+    <a href="https://proct-remote.streamlit.app/" target="_blank" 
        style="text-decoration: none;">
         <div style="border: 1px solid #bbb; padding: 12px; border-radius: 10px; 
                     background: linear-gradient(135deg, #e0f7fa, #e1f5fe); 
