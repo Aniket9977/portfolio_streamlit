@@ -9,11 +9,11 @@ with col1:
 
     # Add a download button for the resume below the photo
     try:
-        with open("image/Resume (1).pdf", "rb") as file:
+        with open("image\Resume_latest.pdf", "rb") as file:
             st.download_button(
                 label="Download Resume",
                 data=file,
-                file_name="Resume (1).pdf",
+                file_name="Resume_latest.pdf",
                 mime="application/pdf",
             )
     except FileNotFoundError:
@@ -26,8 +26,6 @@ with col2:
     Hi, I'm Aniket Vishwakarma, currently pursuing a Bachelor of Technology in Artificial Intelligence and Data Science.
     Welcome to my portfolio website! Here you'll find my resume, projects, and ways to get in touch with me.
     """)
-
-# (Rest of your code...)
 
 # Education section
 st.subheader("Education")
@@ -44,6 +42,12 @@ st.write("""
 # Experience section
 st.subheader("Experience")
 st.write("""
+- **Virtual Note Assistant Intern**  
+  INeuron.ai (October 2024 - Present, Remote)  
+  - Built a system capable of converting speech to text for English audio inputs.  
+  - Hosted the solution on Cloud Platforms.  
+  - Implemented thorough logging for all actions using Python's logging library.
+
 - **ML Mentor**  
   CodeYoung (July 2023 - March 2024, Remote)  
   - Taught Python, ML models, and Data Structures, enhancing students’ coding and problem-solving skills.  
@@ -86,9 +90,17 @@ st.write("""
 # Technical Skills section
 st.subheader("Technical Skills")
 st.write("""
-- **Languages**: Python, SQL
+- **Languages**: Python, C/C++, SQL
 - **Data Analytics**: Numpy, PowerBI, MS Excel, MySQL, Pandas, Matplotlib, Seaborn
 - **Machine Learning**: Python, Scikit-learn, AWS, Azure, ML Algorithms, Statistics, Probability
+""")
+
+# Achievements section
+st.subheader("Achievements")
+st.write("""
+- **GATE 2024 Qualified**
+- **Certified ML Mentor**
+- **LeetCode**: Solved 250+ questions
 """)
 
 # Sidebar for Streamlit Project
