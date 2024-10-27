@@ -165,4 +165,4 @@ st.write("""
 
 # Footer
 st.write("---")
-st.write("© 2024 Aniket Vishwakarma")
+st.write("© 2024 Aniket Vishwakarma ")
