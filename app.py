@@ -68,6 +68,12 @@ st.write("""
 st.subheader("Projects")
 st.write("""
 - **ATS Resume Expert (AI-Powered ATS Resume Evaluation Tool)**  
+  Developed interactive and user-friendly interfaces using Streamlit for seamless question-answering system deployment.
+  - Successfully integrated Hugging Face API using Python for language model-based question-answering tasks.
+  -  Leveraged Hugging Face models (GPT-2) for text generation tasks.
+  - **Technology Used**: LangChain, Hugging Face Transformers, Python.
+         
+- **ATS Resume Expert (AI-Powered ATS Resume Evaluation Tool)**  
   Developed an application to evaluate resumes against job descriptions and optimize them for ATS.
   - Utilized gemini-1.5-flash to generate detailed feedback on resume alignment with job descriptions.
   - Developed custom prompts to assess weaknesses and provide a percentage match to the job description.
@@ -106,6 +112,20 @@ st.write("""
 # Sidebar for Streamlit Project
 st.sidebar.title("My Deployed Projects")
 st.sidebar.write("Check out my live apps:")
+st.sidebar.markdown(
+    """
+    <a href="https://que-answer.streamlit.app/" target="_blank" 
+       style="text-decoration: none;">
+        <div style="border: 1px solid #bbb; padding: 12px; border-radius: 10px; 
+                    background: linear-gradient(135deg, #e0f7fa, #e1f5fe); 
+                    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+                    margin-bottom: 20px; transition: transform 0.3s ease-in-out; 
+                    color: #004d40; font-weight: bold; font-size: 15px;">
+            LangChain QA System
+        </div>
+    </a>
+    """, unsafe_allow_html=True
+)
 
 st.sidebar.markdown(
     """
@@ -138,20 +158,7 @@ st.sidebar.markdown(
 )
 
 
-st.sidebar.markdown(
-    """
-    <a href="https://maths-pred.streamlit.app/" target="_blank" 
-       style="text-decoration: none;">
-        <div style="border: 1px solid #bbb; padding: 12px; border-radius: 10px; 
-                    background: linear-gradient(135deg, #e0f7fa, #e1f5fe); 
-                    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
-                    margin-bottom: 20px; transition: transform 0.3s ease-in-out; 
-                    color: #004d40; font-weight: bold; font-size: 15px;">
-            Maths Marks Predictor
-        </div>
-    </a>
-    """, unsafe_allow_html=True
-)
+
 
 # Contact section
 st.header("Contact")
