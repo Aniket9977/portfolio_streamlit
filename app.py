@@ -67,7 +67,7 @@ st.write("""
 # Projects section
 st.subheader("Projects")
 st.write("""
-- **ATS Resume Expert (AI-Powered ATS Resume Evaluation Tool)**  
+- **LangChain QA System (AI-Powered QA System )**  
   Developed interactive and user-friendly interfaces using Streamlit for seamless question-answering system deployment.
   - Successfully integrated Hugging Face API using Python for language model-based question-answering tasks.
   -  Leveraged Hugging Face models (GPT-2) for text generation tasks.
