@@ -76,7 +76,6 @@ st.write("""
 - **ATS Resume Expert (AI-Powered ATS Resume Evaluation Tool)**  
   Developed an application to evaluate resumes against job descriptions and optimize them for ATS.
   - Utilized gemini-1.5-flash to generate detailed feedback on resume alignment with job descriptions.
-  - Developed custom prompts to assess weaknesses and provide a percentage match to the job description.
   - Immediate feedback, keyword optimization, format compatibility, and alignment to specific job descriptions.
   - **Technology Used**: Pandas, Pickle, Scikit-Learn.
 
@@ -152,6 +151,20 @@ st.sidebar.markdown(
                     margin-bottom: 20px; transition: transform 0.3s ease-in-out; 
                     color: #33691e; font-weight: bold; font-size: 15px;">
             ATS  Predictor
+        </div>
+    </a>
+    """, unsafe_allow_html=True
+)
+st.sidebar.markdown(
+    """
+    <a href="https://maths-pred.streamlit.app/" 
+       style="text-decoration: none;">
+        <div style="border: 1px solid #bbb; padding: 12px; border-radius: 10px; 
+                    background: linear-gradient(135deg, #f1f8e9, #dcedc8); 
+                    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+                    margin-bottom: 20px; transition: transform 0.3s ease-in-out; 
+                    color: #33691e; font-weight: bold; font-size: 15px;">
+            Msths Marks Predictor
         </div>
     </a>
     """, unsafe_allow_html=True
