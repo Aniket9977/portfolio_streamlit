@@ -68,10 +68,10 @@ st.write("""
 st.subheader("Projects")
 st.write("""
 - **•AI-Powered SQL Query Generation (Gemini and SQL)**  
-  Developed an application uses Google’s Gemini language model to transform natural language questions into SQL queries
-  – Convert user questions into accurate SQL queries, optimizing database interactions and data accessibility.
-  – Allows users to input queries, upload Excel files, and preview data before ingestion.
-  – Technology Used: Genai, sqlite3, Pandas
+  Developed an application uses Google's Gemini language model to transform natural language questions into SQL queries
+  - Convert user questions into accurate SQL queries, optimizing database interactions and data accessibility.
+  - Allows users to input queries, upload Excel files, and preview data before ingestion.
+  - Technology Used: Genai, sqlite3, Pandas
          
 - **ATS Resume Expert (AI-Powered ATS Resume Evaluation Tool)**  
   Developed an application to evaluate resumes against job descriptions and optimize them for ATS.
@@ -95,9 +95,9 @@ st.write("""
 # Technical Skills section
 st.subheader("Technical Skills")
 st.write("""
-- **Languages**: Python, C/C++, SQL
-- **Data Analytics**: Numpy, PowerBI, MS Excel, MySQL, Pandas, Matplotlib, Seaborn
-- **Machine Learning**: Python, Scikit-learn, AWS, Azure, ML Algorithms, Statistics, Probability
+  - **Languages**: Python, C/C++, SQL
+  - **Data Analytics**: Numpy, PowerBI, MS Excel, MySQL, Pandas, Matplotlib, Seaborn
+  - **Machine Learning**: Python, Scikit-learn, AWS, Azure, ML Algorithms, Statistics, Probability
 """)
 
 # Achievements section
