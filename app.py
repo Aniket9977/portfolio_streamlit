@@ -9,11 +9,11 @@ with col1:
 
     # Add a download button for the resume below the photo
     try:
-        with open("image\Resume_latest.pdf", "rb") as file:
+        with open("image\Resume_aa.pdf", "rb") as file:
             st.download_button(
                 label="Download Resume",
                 data=file,
-                file_name="Resume_latest.pdf",
+                file_name="Resume_aa.pdf",
                 mime="application/pdf",
             )
     except FileNotFoundError:
