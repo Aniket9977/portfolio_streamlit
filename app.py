@@ -67,11 +67,11 @@ st.write("""
 # Projects section
 st.subheader("Projects")
 st.write("""
-- **LangChain QA System (AI-Powered QA System )**  
-  Developed interactive and user-friendly interfaces using Streamlit for seamless question-answering system deployment.
-  - Successfully integrated Hugging Face API using Python for language model-based question-answering tasks.
-  -  Leveraged Hugging Face models (GPT-2) for text generation tasks.
-  - **Technology Used**: LangChain, Hugging Face Transformers, Python.
+- **•AI-Powered SQL Query Generation (Gemini and SQL)**  
+  Developed an application uses Google’s Gemini language model to transform natural language questions into SQL queries
+  – Convert user questions into accurate SQL queries, optimizing database interactions and data accessibility.
+  – Allows users to input queries, upload Excel files, and preview data before ingestion.
+  – Technology Used: Genai, sqlite3, Pandas
          
 - **ATS Resume Expert (AI-Powered ATS Resume Evaluation Tool)**  
   Developed an application to evaluate resumes against job descriptions and optimize them for ATS.
