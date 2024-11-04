@@ -163,7 +163,7 @@ st.sidebar.markdown(
                     background: linear-gradient(135deg, #f1f8e9, #dcedc8); 
                     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
                     margin-bottom: 20px; transition: transform 0.3s ease-in-out; 
-                    color: #33691e; font-weight: bold; font-size: 15px;">
+                    color: #004d40; font-weight: bold; font-size: 15px;">
             Msths Marks Predictor
         </div>
     </a>
