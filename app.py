@@ -120,7 +120,7 @@ st.sidebar.markdown(
                     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
                     margin-bottom: 20px; transition: transform 0.3s ease-in-out; 
                     color: #004d40; font-weight: bold; font-size: 15px;">
-            LangChain QA System
+            SQL Query Generation
         </div>
     </a>
     """, unsafe_allow_html=True
