@@ -5,11 +5,11 @@ col1, col2 = st.columns([1, 2])
 
 # Add photo in the first column
 with col1:
-    st.image("image\IMG_20240720_201333_050.jpg", width=200)  
+    st.image("image/IMG_20240720_201333_050.jpg", width=200)  
 
     # Add a download button for the resume below the photo
     try:
-        with open("image\Resume_aa.pdf", "rb") as file:
+        with open("image/Resume_aa.pdf", "rb") as file:
             st.download_button(
                 label="Download Resume",
                 data=file,
