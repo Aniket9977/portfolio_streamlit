@@ -160,7 +160,7 @@ st.sidebar.markdown(
     <a href="https://maths-pred.streamlit.app/" 
        style="text-decoration: none;">
         <div style="border: 1px solid #bbb; padding: 12px; border-radius: 10px; 
-                    background: linear-gradient(135deg, #f1f8e9, #dcedc8); 
+                    background: linear-gradient(135deg, #e0f7fa, #e1f5fe); 
                     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
                     margin-bottom: 20px; transition: transform 0.3s ease-in-out; 
                     color: #004d40; font-weight: bold; font-size: 15px;">
