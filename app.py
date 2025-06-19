@@ -32,7 +32,7 @@ st.subheader("Education")
 st.write("""
 - **Bachelor of Technology in Artificial Intelligence and Data Science**  
   Jabalpur Engineering College (2021-2025)  
-  CGPA: 7.6
+  CGPA: 7.81
 """)
 
 # Experience section
