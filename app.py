@@ -13,7 +13,7 @@ with col1:
             st.download_button(
                 label="Download Resume",
                 data=file,
-                file_name="AniketVishwakarmaEcp.pdf.pdf",
+                file_name="AniketVishwakarmaEcp.pdf",
                 mime="application/pdf",
             )
     except FileNotFoundError:
