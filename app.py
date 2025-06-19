@@ -9,11 +9,11 @@ with col1:
 
     # Add a download button for the resume below the photo
     try:
-        with open("image/Resume.pdf", "rb") as file:
+        with open("image/AniketVishwakarmaEcp.pdf", "rb") as file:
             st.download_button(
                 label="Download Resume",
                 data=file,
-                file_name="Resume.pdf",
+                file_name="AniketVishwakarmaEcp.pdf.pdf",
                 mime="application/pdf",
             )
     except FileNotFoundError:
@@ -39,12 +39,12 @@ st.write("""
 st.subheader("Experience")
 st.write("""
 - **AI Engineer (Intern)**  
-  INeuron.ai (October 2024 - Present)  
-  - Developing a speech-to-text system, improving transcription accuracy by 20% and reducing manual transcription time by 30%.
-  - Deployed the speech-to-text system on AWS, achieving 99.9% uptime and reducing operational costs by 15%.
+  INeuron.ai (February 2024 - March 2025)  
+  - Orchestrated end-to-end GenAI workflows using Apache Airflow, enabling automated data ingestion, model inference and result delivery
+  - Fine-tuned a transformer-based language model on domain-specific educational datasets, resulting in a 25% improvement in response coherence and factual accuracy.
 
 - **Head Coordinator (E-CELL)**  
-  Jabalpur Engineering College (April 2024, Onsite)  
+  Jabalpur Engineering College (April 2024 - April 2025)  
   - Managed a team of 15 to organize 5+ events, increasing student engagement in entrepreneurial activities.  
   - Developed initiatives that boosted student participation in innovation challenges.
 
@@ -59,8 +59,8 @@ st.subheader("Projects")
 st.write("""
 - **AI-Powered SQL Query Generation (Gemini and SQL)**  
   Developed an application utilizing Google’s Gemini model to convert natural language queries into SQL.  
-  - Converts user questions into accurate SQL queries, optimizing database interactions and data accessibility.  
-  - Allows users to input queries, upload Excel files, and preview data before ingestion.  
+  - Convert user questions into accurate SQL queries, optimizing database interactions and data accessibility.
+  - Allows users to input queries, upload Excel files, and preview data before ingestion.
   - **Technology Used**: GenAI, SQLite3, Pandas
 
 - **Remote Proctoring System with Real-Time Facial Landmark Detection (OpenCV)**  
@@ -71,16 +71,16 @@ st.write("""
 
 - **RAG Document with Groq and Lama**  
   Document Q&A powered by RAG with Groq and Lama for precise retrieval-based responses.  
-  - Engineered a Retrieval-Augmented Generation system to enable interactive Q&A from uploaded PDF and text documents.  
-  - Utilized LangChain for efficient document ingestion, chunking, and retrieval to enhance the accuracy of query responses.  
-  - Integrated OpenAI Embeddings and FAISS to create a scalable vector database, achieving high-speed document similarity searches with low latency.  
-  - **Technology Used**: LangChain, ChatGroq, FAISS, Python
+  - Built modular backend services for QA, theme identification, and document routing with FastAPI.
+  - Enabled real-time Q&A and thematic insights over uploaded documents via LangChain and OpenAI APIs.
+  -Containerized the application with Docker and managed environment configurations using .env files.
+  - **Technology Used**: LangChain,OpenAI API,FAISS,Python
 """)
 
 # Technical Skills section
 st.subheader("Technical Skills and Interests")
 st.write("""
-- **Languages**: C/C++, Python, SQL  
+- **Languages**: Python, SQL  
 - **Data Analytics and Visualization**: NumPy, Pandas, EDA, PowerBI, MS Excel, SQL, Matplotlib, Seaborn  
 - **Deep Learning**: NLP, LSTM, CNNs, RNNs, TensorFlow, Keras, Neural Networks, Hugging Face, Transformers, BERT, GPT, PyTorch, OpenCV  
 - **Gen-AI**: LLMs, GANs, LangChain, Llama Index, Gemini Pro, LangGraph, RAG  
