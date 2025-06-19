@@ -129,7 +129,7 @@ st.sidebar.markdown(
 )
 st.sidebar.markdown(
     """
-    <a href="https://rag-model.streamlit.app/" target="_blank" 
+    <a href="https://rag-with-openai.streamlit.app/" target="_blank" 
        style="text-decoration: none;">
         <div style="border: 1px solid #bbb; padding: 12px; border-radius: 10px; 
                     background: linear-gradient(135deg, #e0f7fa, #e1f5fe); 
